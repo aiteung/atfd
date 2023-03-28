@@ -4,6 +4,7 @@ file and directory in operating system
 
 ```go
 files, err := atfd.WalkMatch("/root/", "*.md")
+files, _ := atfd.WalkMatch(".", "*.txt")
 ```
 
 ## Release
