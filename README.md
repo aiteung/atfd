@@ -2,6 +2,12 @@
 
 file and directory in operating system
 
+```go
+files, err := atfd.WalkMatch("/root/", "*.md")
+```
+
+## Release
+
 ```sh
 go get -u all
 go mod tidy
